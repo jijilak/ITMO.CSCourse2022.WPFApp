@@ -24,5 +24,10 @@ namespace Lab4Ex1.UserIn1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Your name is " + txtFirstName.Text + " " + txtLastName.Text + " and your email address is " + txtEmail.Text);
+        }
     }
 }
