@@ -23,8 +23,8 @@ namespace Lab1Ex1.WpfHello
         public MainWindow()
         {
             InitializeComponent();
-            button.IsEnabled = false;
-            button1.IsEnabled = false;
+            button.IsEnabled = false;  //Lab1Ex3
+            button1.IsEnabled = false;  //Lab1Ex3
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -39,7 +39,7 @@ namespace Lab1Ex1.WpfHello
             {
                 MessageBox.Show(ex.Message);
             }
-            button1.IsEnabled = true;
+            button1.IsEnabled = true;  //Lab1Ex3
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -56,6 +56,7 @@ namespace Lab1Ex1.WpfHello
             }
         }
 
+        //Lab1Ex3
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             button.IsEnabled = true;
