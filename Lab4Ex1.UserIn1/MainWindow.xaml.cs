@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Lab5Ex1.UserIn1
+namespace Lab4Ex1.UserIn1
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
