@@ -61,5 +61,15 @@ namespace Lab1Ex1.WpfHello
         {
             button.IsEnabled = true;
         }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            myTextBox.Text = DateTime.Now.ToString();
+        }
+
+        //private void myTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        //{
+
+        //}
     }
 }
