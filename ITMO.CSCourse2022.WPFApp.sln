@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1Ex2.WpfHelloNav", "Lab1Ex2.WpfHelloNav\Lab1Ex2.WpfHelloNav.csproj", "{057CF85E-6A99-4555-8080-3A562DEB98D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2Ex1.WpfRoutedEvent_2_1", "Lab2Ex1.WpfRoutedEvent_2_1\Lab2Ex1.WpfRoutedEvent_2_1.csproj", "{DD2BA192-BA8A-4B4F-AE44-E8EB21304435}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{057CF85E-6A99-4555-8080-3A562DEB98D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{057CF85E-6A99-4555-8080-3A562DEB98D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{057CF85E-6A99-4555-8080-3A562DEB98D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{057CF85E-6A99-4555-8080-3A562DEB98D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2BA192-BA8A-4B4F-AE44-E8EB21304435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2BA192-BA8A-4B4F-AE44-E8EB21304435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2BA192-BA8A-4B4F-AE44-E8EB21304435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2BA192-BA8A-4B4F-AE44-E8EB21304435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {32810EBC-F941-4F3A-BD76-06815D2C805D}
+		SolutionGuid = {B8DA39A9-FD40-464F-8E2C-234FF62FD8DF}
 	EndGlobalSection
 EndGlobal
