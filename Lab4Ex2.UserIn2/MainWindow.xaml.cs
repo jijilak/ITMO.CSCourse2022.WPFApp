@@ -23,6 +23,34 @@ namespace Lab4Ex2.UserIn2
         public MainWindow()
         {
             InitializeComponent();
+            foreach (FontFamily F in Fonts.SystemFontFamilies)
+            {
+                comboBox1.Items.Add(F.ToString());
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            RichTextBox1.Selection.ApplyPropertyValue(FontWeightProperty
+                , FontWeights.Bold);
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            RichTextBox1.Selection.ApplyPropertyValue(FontStyleProperty
+                , FontStyles.Italic);
+        }
+
+        private void Slider1_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+        SliderChanged: RichTextBox1.Selection.ApplyPropertyValue(FontSizeProperty
+            , Slider1.Value.ToString());
+        }
+
+        private void comboBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+        ComboBoxSelectionChanged: RichTextBox1.Selection.ApplyPropertyValue(FontFamilyProperty
+            , new FontFamily(comboBox1.Text));
         }
     }
 }

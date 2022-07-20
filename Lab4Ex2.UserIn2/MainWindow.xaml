@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <ToolBar HorizontalAlignment="Center" Height="66" VerticalAlignment="Top" Width="800">
+            <Button Click="Button_Click">Bold</Button>
+            <Button Click="Button_Click_1">Italic</Button>
+            <RichTextBox x:Name="RichTextBox1" Width="125">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text="RichTextBox"/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            <Slider Name="Slider1" Minimum="2" Maximum="72" Width="100" ValueChanged="Slider1_ValueChanged"></Slider>
+            <ComboBox Name="comboBox1" Width="75" SelectionChanged="comboBox1_SelectionChanged"></ComboBox>
+        </ToolBar>
     </Grid>
 </Window>
