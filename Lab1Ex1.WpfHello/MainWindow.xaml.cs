@@ -29,7 +29,7 @@ namespace Lab1Ex1.WpfHello
         {
             try
             {
-                System.IO.StreamWriter sw = new System.IO.StreamWriter("username.txt");
+                System.IO.StreamWriter sw = new System.IO.StreamWriter("D:\\ITMO\\8. Программирование на Csharp\\ITMO.CSCourse2022.WPFApp\\Lab1Ex1.WpfHello\\username.txt");
                 sw.WriteLine(textBox.Text);
                 sw.Close();
             }
@@ -43,8 +43,8 @@ namespace Lab1Ex1.WpfHello
         {
             try
             {
-                System.IO.StreamReader sr = new System.IO.StreamReader("username.txt");
-                label.Content = "Приветствую Вас, уважаемый " + sr.ReadToEnd();
+                System.IO.StreamReader sr = new System.IO.StreamReader("D:\\ITMO\\8. Программирование на Csharp\\ITMO.CSCourse2022.WPFApp\\Lab1Ex1.WpfHello\\username.txt");
+                label.Content = "Приветствую Вас, уважаемый пользователь " + sr.ReadToEnd();
                 sr.Close();
             }
             catch (Exception ex)
